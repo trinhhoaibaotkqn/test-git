@@ -3,5 +3,7 @@ const sum = (a, b) => {
 }
 
 const minus = (a, b) => {
+    if (a - b < 0)
+        return "a < b";
     return a - b;
 }
